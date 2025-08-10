@@ -1,0 +1,17 @@
+include README.md
+include requirements.txt
+include config.template
+include install_service.py
+include install_daemon.sh
+include install_windows.bat
+recursive-include src *.py
+recursive-include tests *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
+recursive-exclude * .git*
+recursive-exclude * .venv
+recursive-exclude * node_modules
+recursive-exclude * build
+recursive-exclude * dist
+recursive-exclude * *.egg-info 
